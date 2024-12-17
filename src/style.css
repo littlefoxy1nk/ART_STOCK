@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "JetBrains Mono", monospace;
+    background-color: #000000e9; 
+    color: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    width: 1440px;
+    margin: 0 auto;
+  }
+  
+/* les titres */
+  h1 {
+    font-size: 50px;
+    font-weight:800;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin: 60px;
+  }
+/* liens ET BOUTONS */
+a{
+font-size: 40px;
+text-decoration: none;
+color: #fff;
+text-transform: uppercase;
+font-weight: 900;
+padding: '10px 20px';
+  border: 1px solid white;
+  margin: 50px;
+  }
+  a:hover {
+   background-color: #aaa;
+  }
+  
+  button {
+    background-color: #ffffff5b; /* Bouton blanc */
+    color: #fff; /* Texte noir */
+    border: none;
+    padding:10px 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 40px;
+  }
+  
+  button:hover {
+    background-color: #ccc; /* Bouton devient gris clair au survol */
+    color: #000;
+  }
+
+
+  
+  /* === 5. FORMULAIRE === */
+  form input, form button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    background-color: #aaa;
+  }
+  
+  form input::placeholder {
+    color:#fff;
+    font-size: 20px;
+    font-weight: 200;
+  }
+  
+  form input[type="text"]:focus,
+  form input[type="number"]:focus {
+    outline: none;
+    border-color: #fff;
+  }
+  
+  /* les produits */
+  .product-card {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #b2a4a428;
+    border: 1px solid #ffffff8e;
+    padding: 2rem;
+    margin:10px 20px;
+   
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .product-card h2 {
+    font-size: 15px;
+    font-weight: 100;
+    color: #fff;
+  }
+  
+  .product-card p {
+    color: #f3ececaf; 
+    font-size: 10px;
+  }
+  
+  .product-card button {
+    margin-top: 10px;
+    background-color: #ffffffb5;  }
+  
+  /* === 7. LIENS === */
+  .link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .link:hover {
+    background-color: #ccc;
+  }
+  
+  /* === 8. RESPONSIVE DESIGN === */
+  @media (max-width: 768px) {
+    .product-card {
+      flex-direction: column;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }

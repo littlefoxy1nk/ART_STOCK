@@ -38,11 +38,3 @@ add id here : [STORE_ART](https://littlefoxy1nk.github.io/TODOLIST/)
 
 
 
-
-
-
-
-
-
-
-deploy on vercel : https://store-littlefoxy1nks-projects.vercel.app

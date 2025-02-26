@@ -33,7 +33,7 @@ This is an Art Stock Management App built using React and Vite. The application 
 🔑  Authentication system 
 
 ## 🎨 Go to add your favorite piece of art! 🖌️
-add id here : [STORE_ART](https://littlefoxy1nk.github.io/TODOLIST/)
+add id here : [STORE_ART](https://store-littlefoxy1nks-projects.vercel.app/)
 
 
 
